@@ -33,6 +33,10 @@ func main() {
 	/* Go Switches */
 	switch_init()
 
+    // We also have goto's in Go! When you need it, you'll love it.
+    goto love
+
+love:
 	/* Go defer */
 	defer_init()
 	defer_more()
@@ -78,9 +82,10 @@ func main() {
 func for_init(n int) {
 	sum := 0
 
+	// Variables declared in for and if are local to their scope.
 	// Notice there is no () enclosing for components
 	// But {} is mandatory tho.
-	for i := 0; i < n; i++ {
+	for i := 0; i < n; i++ { // ++ is a statement.
 		sum += i
 	}
 	fmt.Println(sum)
@@ -101,9 +106,11 @@ func for_init(n int) {
 	fmt.Println(sum3)
 
 	// Infinite loop, namely 'Forever'
-	// for {
-	// 	fmt.Println("thing goes like skrrra")
-	// }
+	for {
+		fmt.Println("thing goes like skrrra")
+		break    // Just kidding.
+        continue // Unreached.
+	}
 }
 
 
@@ -232,7 +239,7 @@ func defer_init() {
 func defer_more() {
 	/* Defer is commonly used to close a file, so the function closing the
 	   file stays close to the function opening the file. Think of this like context managers (with) in Python */
-	file, err := os.Create("output.txt")
+	file, err := os.Create("output_deferred.txt")
 	if err != nil {
 		return
 	}
