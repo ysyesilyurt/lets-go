@@ -22,7 +22,7 @@ The very stages of my go studies based on the [official tour of Go](https://tour
 * `count_words`
 * `fibonacci_using_closures.go`
 
-## [killin it!](https://github.com/ysyesilyurt/lets-go/tree/main/bootstrap/stages/killin_it)
+## [killin' it!](https://github.com/ysyesilyurt/lets-go/tree/main/bootstrap/stages/killin_it)
 * `Methods` and `Interfaces` -- the constructs that define objects and their behavior.
 * How to define methods on types, how to declare interfaces, and how to put everything together.
 * Type `switches` and `assertions`
