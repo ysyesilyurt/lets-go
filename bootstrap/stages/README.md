@@ -34,7 +34,8 @@ The very stages of my go studies based on the [official tour of Go](https://tour
 ## [go rulez!](https://github.com/ysyesilyurt/lets-go/tree/main/bootstrap/stages/go_rulez)
 * Concurrency - Go provides concurrency features as part of the core language.
 * This module goes over `goroutines` and `channels` and how they are used to implement different concurrency patterns.
-* also some `sync` mechanisms like `mutex` and built-in web support `net/http` 
+* also `select` + `close` on channels and some `sync` mechanisms like `mutex` 
+* in addition intro to built-in web support `net/http`
 
 ### ex
 * `concurrent_binary_tree_checker.go`
