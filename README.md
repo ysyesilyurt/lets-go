@@ -1,7 +1,9 @@
 # lets-go
 A Handy Collection of my Go(lang) notes from my studies.
 
-![go](https://github.com/ysyesilyurt/lets-go/blob/main/bootstrap/misc/go.png)
+<p align="center">
+  <img src="https://github.com/ysyesilyurt/lets-go/blob/main/bootstrap/misc/go.png?raw=true" alt="Go"/>
+</p>
 
 ## Main References
 
@@ -17,4 +19,6 @@ A Handy Collection of my Go(lang) notes from my studies.
 
 * [Idiomatic approaches (the Zen) of Go](https://go-proverbs.github.io/)
 
-![gopher](https://github.com/ysyesilyurt/lets-go/blob/main/bootstrap/misc/gopher.jpg)
+<p align="center">
+  <img src="https://github.com/ysyesilyurt/lets-go/blob/main/bootstrap/misc/gopher.jpg?raw=true" alt="Gopher"/>
+</p>
