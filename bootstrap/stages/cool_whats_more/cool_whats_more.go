@@ -1,6 +1,6 @@
 package main
 
-/* More types: pointers, structs, slices, and maps. 
+/* More types: pointers, structs, arrays, slices, ranges, maps, functions and closures. 
 	* How to define types based on existing ones: structs, arrays, slices, and maps.
 */
 
